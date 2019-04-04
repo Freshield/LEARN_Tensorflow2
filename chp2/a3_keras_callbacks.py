@@ -86,6 +86,18 @@ x_test_scaled = scaler.transform(
 
 print(np.max(x_train_scaled), np.min(x_train_scaled))
 
+#callbacks
+logdir = 'data/callbacks'
+if not os.path.exists(logdir):
+    os.mkdir(logdir)
+output_model_file = os.path.join(logdir, 'fashion_mnist_model.h5')
+
+callbacks = [
+    keras.callbacks.TensorBoard(logdir),
+    keras.callbacks.ModelCheckpoint(output_model_file, save_best_only=True),
+    keras.callbacks.EarlyStopping(patience=5, min_delta=1e-3)
+]
+
 #
 # show_imgs(3, 5, x_train, y_train, class_names)
 
@@ -105,7 +117,8 @@ print(model.layers)
 print(model.summary())
 
 history = model.fit(x_train_scaled, y_train, epochs=10,
-                    validation_data=(x_valid_scaled, y_valid))
+                    validation_data=(x_valid_scaled, y_valid),
+                    callbacks=callbacks)
 
 print(type(history))
 print(history.history)
