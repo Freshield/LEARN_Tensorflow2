@@ -9,28 +9,65 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/chp2$a3_keras_callbacks.coverage" NAME="a3_keras_callbacks Coverage Results" MODIFIED="1554361077171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chp2$a10_keras_wide_deep_subclass.coverage" NAME="a10_keras_wide_deep_subclass Coverage Results" MODIFIED="1555746811113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chp2$a2_kears_norm_classify.coverage" NAME="a2_kears_norm_classify Coverage Results" MODIFIED="1554264275510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chp2$a11_keras_wide_deep_multi_inputs.coverage" NAME="a11_keras_wide_deep_multi_inputs Coverage Results" MODIFIED="1562055179984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chp2$a12_keras_wide_deep_multi_io.coverage" NAME="a12_keras_wide_deep_multi_io Coverage Results" MODIFIED="1555834976744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chp2$a7_keras_dnn_selu.coverage" NAME="a7_keras_dnn_selu Coverage Results" MODIFIED="1555054611463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/chp2$a3_keras_callbacks.coverage" NAME="a3_keras_callbacks Coverage Results" MODIFIED="1554361077171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/chp2$a10_keras_wide_deep_subclass.coverage" NAME="a10_keras_wide_deep_subclass Coverage Results" MODIFIED="1555746811113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chp2$a5_keras_dnn.coverage" NAME="a5_keras_dnn Coverage Results" MODIFIED="1554621977881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chp2$a6_keras_dnn_bn.coverage" NAME="a6_keras_dnn_bn Coverage Results" MODIFIED="1554881400726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chp2$a13_keras_hp_search.coverage" NAME="a13_keras_hp_search Coverage Results" MODIFIED="1562057363554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chp2$a8_dnn_selu_dropout.coverage" NAME="a8_dnn_selu_dropout Coverage Results" MODIFIED="1555141292901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chp2$a9_keras_wide_deep.coverage" NAME="a9_keras_wide_deep Coverage Results" MODIFIED="1555228041268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chp2$a1_kears_classify.coverage" NAME="a1_kears_classify Coverage Results" MODIFIED="1561953456941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/chp2$a2_kears_norm_classify.coverage" NAME="a2_kears_norm_classify Coverage Results" MODIFIED="1554264275510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chp2$a4_keras_regression.coverage" NAME="a4_keras_regression Coverage Results" MODIFIED="1554621182196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/a11_keras_wide_deep_multi_inputs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="66" lean-forward="true" selection-start-line="54" selection-end-line="66" />
+            <state relative-caret-position="542">
+              <caret line="88" column="37" selection-start-line="16" selection-start-column="3" selection-end-line="88" selection-end-column="37" />
               <folding>
                 <element signature="e#599#623#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/a12_keras_wide_deep_multi_io.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="902">
+              <caret line="93" column="22" lean-forward="true" selection-start-line="93" selection-start-column="22" selection-end-line="93" selection-end-column="22" />
+              <folding>
+                <element signature="e#595#619#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/a4_keras_regression.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="542">
+              <caret line="78" column="37" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="78" selection-end-column="37" />
+              <folding>
+                <element signature="e#586#610#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/a13_keras_hp_search.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+              <folding>
+                <element signature="e#586#610#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,14 +102,16 @@
         <option value="$PROJECT_DIR$/a9_keras_wide_deep.py" />
         <option value="$PROJECT_DIR$/a10_keras_wide_deep_subclass.py" />
         <option value="$PROJECT_DIR$/a11_keras_wide_deep_multi_inputs.py" />
+        <option value="$PROJECT_DIR$/a12_keras_wide_deep_multi_io.py" />
+        <option value="$PROJECT_DIR$/a13_keras_hp_search.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1552" />
-    <option name="y" value="332" />
-    <option name="width" value="971" />
-    <option name="height" value="550" />
+    <option name="x" value="1425" />
+    <option name="y" value="-4" />
+    <option name="width" value="1855" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -103,7 +142,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Linkingmed_HT/Codes_HT/OAR_Seg" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -120,7 +159,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.a12_keras_wide_deep_multi_io">
+  <component name="RunManager" selected="Python.a13_keras_hp_search">
     <configuration name="a10_keras_wide_deep_subclass" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chp2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -187,7 +226,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="a8_dnn_selu_dropout" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="a13_keras_hp_search" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chp2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -200,7 +239,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/a8_dnn_selu_dropout.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/a13_keras_hp_search.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -233,11 +272,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.a13_keras_hp_search" />
         <item itemvalue="Python.a12_keras_wide_deep_multi_io" />
         <item itemvalue="Python.a11_keras_wide_deep_multi_inputs" />
         <item itemvalue="Python.a10_keras_wide_deep_subclass" />
         <item itemvalue="Python.a9_keras_wide_deep" />
-        <item itemvalue="Python.a8_dnn_selu_dropout" />
       </list>
     </recent_temporary>
   </component>
@@ -255,12 +294,12 @@
       <workItem from="1561964564863" duration="31000" />
       <workItem from="1561977282123" duration="645000" />
       <workItem from="1562047100866" duration="35000" />
-      <workItem from="1554532086752" duration="5723000" />
+      <workItem from="1554532086752" duration="7919000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11888000" />
+    <option name="totallyTimeSpent" value="14084000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1425" y="-4" width="1855" height="1084" extended-state="6" />
@@ -270,7 +309,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31380752" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.16213389" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -279,12 +318,12 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3294979" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3294979" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3294979" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.42722744" />
+      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.384062" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
@@ -394,16 +433,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/a4_keras_regression.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="78" column="37" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="78" selection-end-column="37" />
-          <folding>
-            <element signature="e#586#610#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/a10_keras_wide_deep_subclass.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1099">
@@ -426,10 +455,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/a11_keras_wide_deep_multi_inputs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="66" lean-forward="true" selection-start-line="54" selection-end-line="66" />
+        <state relative-caret-position="542">
+          <caret line="88" column="37" selection-start-line="16" selection-start-column="3" selection-end-line="88" selection-end-column="37" />
           <folding>
             <element signature="e#599#623#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a12_keras_wide_deep_multi_io.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="902">
+          <caret line="93" column="22" lean-forward="true" selection-start-line="93" selection-start-column="22" selection-end-line="93" selection-end-column="22" />
+          <folding>
+            <element signature="e#595#619#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a4_keras_regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="78" column="37" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="78" selection-end-column="37" />
+          <folding>
+            <element signature="e#586#610#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a13_keras_hp_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="e#586#610#0" expanded="true" />
           </folding>
         </state>
       </provider>
