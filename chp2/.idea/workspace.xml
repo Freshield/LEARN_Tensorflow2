@@ -19,6 +19,7 @@
     <SUITE FILE_PATH="coverage/chp2$a6_keras_dnn_bn.coverage" NAME="a6_keras_dnn_bn Coverage Results" MODIFIED="1554881400726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chp2$a13_keras_hp_search.coverage" NAME="a13_keras_hp_search Coverage Results" MODIFIED="1562057363554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chp2$a8_dnn_selu_dropout.coverage" NAME="a8_dnn_selu_dropout Coverage Results" MODIFIED="1555141292901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chp2$a14_keras_hp_sklearn.coverage" NAME="a14_keras_hp_sklearn Coverage Results" MODIFIED="1556701658739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chp2$a9_keras_wide_deep.coverage" NAME="a9_keras_wide_deep Coverage Results" MODIFIED="1555228041268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chp2$a1_kears_classify.coverage" NAME="a1_kears_classify Coverage Results" MODIFIED="1561953456941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chp2$a4_keras_regression.coverage" NAME="a4_keras_regression Coverage Results" MODIFIED="1554621182196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -159,7 +160,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.a13_keras_hp_search">
+  <component name="RunManager" selected="Python.a14_keras_hp_sklearn">
     <configuration name="a10_keras_wide_deep_subclass" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chp2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -248,7 +249,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="a9_keras_wide_deep" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="a14_keras_hp_sklearn" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chp2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -261,7 +262,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/a9_keras_wide_deep.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/a14_keras_hp_sklearn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -272,11 +273,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.a14_keras_hp_sklearn" />
         <item itemvalue="Python.a13_keras_hp_search" />
         <item itemvalue="Python.a12_keras_wide_deep_multi_io" />
         <item itemvalue="Python.a11_keras_wide_deep_multi_inputs" />
         <item itemvalue="Python.a10_keras_wide_deep_subclass" />
-        <item itemvalue="Python.a9_keras_wide_deep" />
       </list>
     </recent_temporary>
   </component>
