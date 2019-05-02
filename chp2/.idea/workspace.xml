@@ -62,13 +62,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/a13_keras_hp_search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="680">
+              <caret line="85" column="33" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="85" selection-end-column="33" />
               <folding>
                 <element signature="e#586#610#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/a14_keras_hp_sklearn.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="454">
+              <caret line="112" column="36" selection-start-line="112" selection-start-column="36" selection-end-line="112" selection-end-column="36" />
+              <folding>
+                <element signature="e#587#611#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,6 +117,7 @@
         <option value="$PROJECT_DIR$/a11_keras_wide_deep_multi_inputs.py" />
         <option value="$PROJECT_DIR$/a12_keras_wide_deep_multi_io.py" />
         <option value="$PROJECT_DIR$/a13_keras_hp_search.py" />
+        <option value="$PROJECT_DIR$/a14_keras_hp_sklearn.py" />
       </list>
     </option>
   </component>
@@ -295,12 +308,12 @@
       <workItem from="1561964564863" duration="31000" />
       <workItem from="1561977282123" duration="645000" />
       <workItem from="1562047100866" duration="35000" />
-      <workItem from="1554532086752" duration="7919000" />
+      <workItem from="1554532086752" duration="9105000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14084000" />
+    <option name="totallyTimeSpent" value="15270000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1425" y="-4" width="1855" height="1084" extended-state="6" />
@@ -310,7 +323,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.16213389" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.62552303" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -319,12 +332,12 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3294979" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3294979" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3294979" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.384062" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.384062" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
@@ -486,10 +499,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/a13_keras_hp_search.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="680">
+          <caret line="85" column="33" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="85" selection-end-column="33" />
           <folding>
             <element signature="e#586#610#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a14_keras_hp_sklearn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="112" column="36" selection-start-line="112" selection-start-column="36" selection-end-line="112" selection-end-column="36" />
+          <folding>
+            <element signature="e#587#611#0" expanded="true" />
           </folding>
         </state>
       </provider>
