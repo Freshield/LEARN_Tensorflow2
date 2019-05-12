@@ -20,17 +20,39 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/chp3$a3_tf_keras_regression_customized_loss.coverage" NAME="a3_tf_keras_regression_customized_loss Coverage Results" MODIFIED="1562572051741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chp3$a3_tf_keras_customized_layer.coverage" NAME="a3_tf_keras_customized_layer Coverage Results" MODIFIED="1557044602784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chp3$a6_tf_keras_regression_manu_diffs.coverage" NAME="a6_tf_keras_regression_manu_diffs Coverage Results" MODIFIED="1557655660461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chp3$a4_tf_function_and_auto_graph.coverage" NAME="a4_tf_function_and_auto_graph Coverage Results" MODIFIED="1557219866698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chp3$a1_tf_basic_api.coverage" NAME="a1_tf_basic_api Coverage Results" MODIFIED="1562568934580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/chp3$a5_tf_diffs.coverage" NAME="a5_tf_diffs Coverage Results" MODIFIED="1562579444544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chp3$a5_tf_diffs.coverage" NAME="a5_tf_diffs Coverage Results" MODIFIED="1557654922282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/a5_tf_diffs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
+            <state relative-caret-position="-1448">
               <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/a6_tf_keras_regression_manu_diffs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="593">
+              <caret line="93" column="13" lean-forward="true" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
+              <folding>
+                <element signature="e#600#624#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/tensorflow/python/keras/optimizer_v2/optimizer_v2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="908" column="4" selection-start-line="908" selection-start-column="4" selection-end-line="908" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -74,6 +96,7 @@
         <option value="$PROJECT_DIR$/a3_tf_keras_customized_layer.py" />
         <option value="$PROJECT_DIR$/a4_tf_function_and_auto_graph.py" />
         <option value="$PROJECT_DIR$/a5_tf_diffs.py" />
+        <option value="$PROJECT_DIR$/a6_tf_keras_regression_manu_diffs.py" />
       </list>
     </option>
   </component>
@@ -122,29 +145,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.a5_tf_diffs">
-    <configuration name="a1_tf_basic_api" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="chp3" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/a1_tf_basic_api.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.a6_tf_keras_regression_manu_diffs">
     <configuration name="a3_tf_keras_customized_layer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chp3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -233,13 +234,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="a6_tf_keras_regression_manu_diffs" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="chp3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/a6_tf_keras_regression_manu_diffs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.a6_tf_keras_regression_manu_diffs" />
         <item itemvalue="Python.a5_tf_diffs" />
         <item itemvalue="Python.a4_tf_function_and_auto_graph" />
         <item itemvalue="Python.a3_tf_keras_customized_layer" />
         <item itemvalue="Python.a3_tf_keras_regression_customized_loss" />
-        <item itemvalue="Python.a1_tf_basic_api" />
       </list>
     </recent_temporary>
   </component>
@@ -254,23 +277,22 @@
       <option name="presentableId" value="Default" />
       <updated>1562294585452</updated>
       <workItem from="1562294586643" duration="2418000" />
-      <workItem from="1562568724774" duration="8612000" />
+      <workItem from="1562568724774" duration="10269000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11030000" />
+    <option name="totallyTimeSpent" value="12687000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1425" y="-4" width="1855" height="1084" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25235197" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294979" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.47803348" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.47803348" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -355,8 +377,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/a5_tf_diffs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
+        <state relative-caret-position="-1448">
           <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/tensorflow/python/keras/optimizer_v2/optimizer_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="908" column="4" selection-start-line="908" selection-start-column="4" selection-end-line="908" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a6_tf_keras_regression_manu_diffs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="93" column="13" lean-forward="true" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
+          <folding>
+            <element signature="e#600#624#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
