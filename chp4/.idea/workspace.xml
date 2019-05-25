@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="087a951d-d42b-4ec7-970c-d1536b8acdd2" name="Default Changelist" comment="" />
+    <list default="true" id="087a951d-d42b-4ec7-970c-d1536b8acdd2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a3_use_csv_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/a3_use_csv_files.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,7 +13,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/chp4$a2_tf_data_generate_csv.coverage" NAME="a2_tf_data_generate_csv Coverage Results" MODIFIED="1562727964449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/chp4$a3_use_csv_files.coverage" NAME="a3_use_csv_files Coverage Results" MODIFIED="1562728416304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chp4$a3_use_csv_files.coverage" NAME="a3_use_csv_files Coverage Results" MODIFIED="1562738385167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chp4$a1_tf_data_basic_api.coverage" NAME="a1_tf_data_basic_api Coverage Results" MODIFIED="1562726930021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chp4$a4_sample_csv.coverage" NAME="a4_sample_csv Coverage Results" MODIFIED="1557977842785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -43,10 +46,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/a3_use_csv_files.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+            <state relative-caret-position="198">
+              <caret line="90" column="6" selection-start-line="90" selection-start-column="6" selection-end-line="90" selection-end-column="6" />
               <folding>
                 <element signature="e#583#607#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/a4_sample_csv.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="542">
+              <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+              <folding>
+                <element signature="e#581#605#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,6 +85,7 @@
         <option value="$PROJECT_DIR$/a1_tf_data_basic_api.py" />
         <option value="$USER_HOME$/anaconda3/lib/python3.6/site-packages/sklearn/datasets/base.py" />
         <option value="$PROJECT_DIR$/a2_tf_data_generate_csv.py" />
+        <option value="$PROJECT_DIR$/a4_sample_csv.py" />
         <option value="$PROJECT_DIR$/a3_use_csv_files.py" />
       </list>
     </option>
@@ -119,7 +135,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.a4_sample_csv">
+  <component name="RunManager" selected="Python.a3_use_csv_files">
     <configuration name="a1_tf_data_basic_api" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chp4" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -210,8 +226,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.a4_sample_csv" />
         <item itemvalue="Python.a3_use_csv_files" />
+        <item itemvalue="Python.a4_sample_csv" />
         <item itemvalue="Python.a2_tf_data_generate_csv" />
         <item itemvalue="Python.a1_tf_data_basic_api" />
       </list>
@@ -227,12 +243,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562725046975</updated>
-      <workItem from="1562725048324" duration="3393000" />
+      <workItem from="1562725048324" duration="6560000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3393000" />
+    <option name="totallyTimeSpent" value="6560000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1424" y="-11" width="1857" height="1092" extended-state="6" />
@@ -245,7 +261,7 @@
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.3294979" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Python Console" order="4" />
+      <window_info anchor="bottom" id="Python Console" order="4" weight="0.3294979" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
@@ -299,10 +315,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/a3_use_csv_files.py">
+    <entry file="file://$PROJECT_DIR$/a4_sample_csv.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="542">
-          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+          <folding>
+            <element signature="e#581#605#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a3_use_csv_files.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="90" column="6" selection-start-line="90" selection-start-column="6" selection-end-line="90" selection-end-column="6" />
           <folding>
             <element signature="e#583#607#0" expanded="true" />
           </folding>
