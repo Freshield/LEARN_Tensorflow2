@@ -13,6 +13,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/chp4$a2_tf_data_generate_csv.coverage" NAME="a2_tf_data_generate_csv Coverage Results" MODIFIED="1562727964449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chp4$a6_tf_data_generate_tfrecord.coverage" NAME="a6_tf_data_generate_tfrecord Coverage Results" MODIFIED="1558857210034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chp4$a3_use_csv_files.coverage" NAME="a3_use_csv_files Coverage Results" MODIFIED="1562738385167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chp4$a1_tf_data_basic_api.coverage" NAME="a1_tf_data_basic_api Coverage Results" MODIFIED="1562726930021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chp4$a4_sample_csv.coverage" NAME="a4_sample_csv Coverage Results" MODIFIED="1557977842785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -92,10 +93,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1839" />
-    <option name="y" value="112" />
-    <option name="width" value="1853" />
-    <option name="height" value="1076" />
+    <option name="x" value="1429" />
+    <option name="y" value="40" />
+    <option name="width" value="1851" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -136,29 +137,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.a5_tf_tfrecord_basic_api">
-    <configuration name="a1_tf_data_basic_api" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="chp4" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/a1_tf_data_basic_api.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.a6_tf_data_generate_tfrecord">
     <configuration name="a2_tf_data_generate_csv" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chp4" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -247,13 +226,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="a6_tf_data_generate_tfrecord" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="chp4" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/a6_tf_data_generate_tfrecord.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.a6_tf_data_generate_tfrecord" />
         <item itemvalue="Python.a5_tf_tfrecord_basic_api" />
         <item itemvalue="Python.a3_use_csv_files" />
         <item itemvalue="Python.a4_sample_csv" />
         <item itemvalue="Python.a2_tf_data_generate_csv" />
-        <item itemvalue="Python.a1_tf_data_basic_api" />
       </list>
     </recent_temporary>
   </component>
