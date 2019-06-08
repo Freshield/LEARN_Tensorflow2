@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d018c3b0-15e7-4a21-814c-cd05c076a688" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/chp5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/chp5.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a4_tf1_dense_network.py" beforeDir="false" afterPath="$PROJECT_DIR$/a4_tf1_dense_network.py" afterDir="false" />
-    </list>
+    <list default="true" id="d018c3b0-15e7-4a21-814c-cd05c076a688" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,18 +11,31 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/chp5$a3_tf_premade_cross_features.coverage" NAME="a3_tf_premade_cross_features Coverage Results" MODIFIED="1559807241826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chp5$a1_tf_keras_to_estimator.coverage" NAME="a1_tf_keras_to_estimator Coverage Results" MODIFIED="1563172408954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/chp5$a4_tf1_dense_network.coverage" NAME="a4_tf1_dense_network Coverage Results" MODIFIED="1563350701032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chp5$a4_tf1_dense_network.coverage" NAME="a4_tf1_dense_network Coverage Results" MODIFIED="1563351008743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chp5$a2_tf_premade_estimators.coverage" NAME="a2_tf_premade_estimators Coverage Results" MODIFIED="1559804296759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chp5$a5_tf1_init_dataset.coverage" NAME="a5_tf1_init_dataset Coverage Results" MODIFIED="1563352141558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/a4_tf1_dense_network.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+            <state relative-caret-position="38">
+              <caret line="74" column="37" lean-forward="true" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="37" />
               <folding>
                 <element signature="e#587#611#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/a5_tf1_init_dataset.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="454">
+              <caret line="96" selection-start-line="96" selection-end-line="96" />
+              <folding>
+                <element signature="e#586#610#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,6 +78,7 @@
         <option value="$PROJECT_DIR$/a2_tf_premade_estimators.py" />
         <option value="$PROJECT_DIR$/a3_tf_premade_cross_features.py" />
         <option value="$PROJECT_DIR$/a4_tf1_dense_network.py" />
+        <option value="$PROJECT_DIR$/a5_tf1_init_dataset.py" />
       </list>
     </option>
   </component>
@@ -130,7 +139,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.a4_tf1_dense_network">
+  <component name="RunManager" selected="Python.a5_tf1_init_dataset">
     <configuration name="a1_tf_keras_to_estimator" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chp5" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -219,8 +228,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="a5_tf1_init_dataset" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="chp5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/a5_tf1_init_dataset.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.a5_tf1_init_dataset" />
         <item itemvalue="Python.a4_tf1_dense_network" />
         <item itemvalue="Python.a3_tf_premade_cross_features" />
         <item itemvalue="Python.a2_tf_premade_estimators" />
@@ -239,23 +271,22 @@
       <option name="presentableId" value="Default" />
       <updated>1563170290922</updated>
       <workItem from="1563170292861" duration="5189000" />
-      <workItem from="1563348520827" duration="2287000" />
+      <workItem from="1563348520827" duration="3630000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7476000" />
+    <option name="totallyTimeSpent" value="8819000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="511" width="1857" height="1092" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16989486" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4424686" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4424686" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -264,7 +295,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3294979" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3294979" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -323,10 +354,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/a4_tf1_dense_network.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+        <state relative-caret-position="38">
+          <caret line="74" column="37" lean-forward="true" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="37" />
           <folding>
             <element signature="e#587#611#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a5_tf1_init_dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
+          <folding>
+            <element signature="e#586#610#0" expanded="true" />
           </folding>
         </state>
       </provider>
