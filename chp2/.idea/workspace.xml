@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="48dfe015-41cd-4da1-bd5b-cb53304ed1e9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example/chapter_2/tf_keras_regression-wide_deep-subclass.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../example/chapter_2/tf_keras_regression-wide_deep-subclass.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example/chapter_2/tf_keras_regression-wide_deep-multi-input.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../example/chapter_2/tf_keras_regression-wide_deep-multi-input.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,9 +12,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/chp2$a11_keras_wide_deep_multi_inputs.coverage" NAME="a11_keras_wide_deep_multi_inputs Coverage Results" MODIFIED="1562055179984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chp2$a7_keras_dnn_selu.coverage" NAME="a7_keras_dnn_selu Coverage Results" MODIFIED="1555054611463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chp2$a3_keras_callbacks.coverage" NAME="a3_keras_callbacks Coverage Results" MODIFIED="1554361077171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/chp2$a10_keras_wide_deep_subclass.coverage" NAME="a10_keras_wide_deep_subclass Coverage Results" MODIFIED="1555746769022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chp2$a10_keras_wide_deep_subclass.coverage" NAME="a10_keras_wide_deep_subclass Coverage Results" MODIFIED="1555746811113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chp2$a5_keras_dnn.coverage" NAME="a5_keras_dnn Coverage Results" MODIFIED="1554621977881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chp2$a6_keras_dnn_bn.coverage" NAME="a6_keras_dnn_bn Coverage Results" MODIFIED="1554881400726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chp2$a8_dnn_selu_dropout.coverage" NAME="a8_dnn_selu_dropout Coverage Results" MODIFIED="1555141292901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -25,85 +26,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/a5_keras_dnn.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="88" column="37" selection-start-line="16" selection-start-column="3" selection-end-line="88" selection-end-column="37" />
-              <folding>
-                <element signature="e#579#603#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/a6_keras_dnn_bn.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="90" column="37" selection-start-line="17" selection-end-line="90" selection-end-column="37" />
-              <folding>
-                <element signature="e#583#607#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/a7_keras_dnn_selu.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="88" column="37" selection-start-line="16" selection-start-column="3" selection-end-line="88" selection-end-column="37" />
-              <folding>
-                <element signature="e#584#608#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/a4_keras_regression.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="78" column="37" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="78" selection-end-column="37" />
-              <folding>
-                <element signature="e#586#610#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/a9_keras_wide_deep.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="86" column="37" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="86" selection-end-column="37" />
-              <folding>
-                <element signature="e#585#609#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/a10_keras_wide_deep_subclass.py">
+        <entry file="file://$PROJECT_DIR$/a11_keras_wide_deep_multi_inputs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="70" column="20" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
+            <state relative-caret-position="158">
+              <caret line="56" column="47" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
               <folding>
-                <element signature="e#595#619#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/a8_dnn_selu_dropout.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="57" column="44" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
-              <folding>
-                <element signature="e#586#610#0" expanded="true" />
+                <element signature="e#599#623#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -137,6 +66,7 @@
         <option value="$PROJECT_DIR$/a8_dnn_selu_dropout.py" />
         <option value="$PROJECT_DIR$/a9_keras_wide_deep.py" />
         <option value="$PROJECT_DIR$/a10_keras_wide_deep_subclass.py" />
+        <option value="$PROJECT_DIR$/a11_keras_wide_deep_multi_inputs.py" />
       </list>
     </option>
   </component>
@@ -192,7 +122,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.a10_keras_wide_deep_subclass">
+  <component name="RunManager" selected="Python.a11_keras_wide_deep_multi_inputs">
     <configuration name="a10_keras_wide_deep_subclass" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chp2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -215,7 +145,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="a6_keras_dnn_bn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="a11_keras_wide_deep_multi_inputs" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chp2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -228,7 +158,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/a6_keras_dnn_bn.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/a11_keras_wide_deep_multi_inputs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -305,11 +235,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.a11_keras_wide_deep_multi_inputs" />
         <item itemvalue="Python.a10_keras_wide_deep_subclass" />
         <item itemvalue="Python.a9_keras_wide_deep" />
         <item itemvalue="Python.a8_dnn_selu_dropout" />
         <item itemvalue="Python.a7_keras_dnn_selu" />
-        <item itemvalue="Python.a6_keras_dnn_bn" />
       </list>
     </recent_temporary>
   </component>
@@ -327,12 +257,12 @@
       <workItem from="1561964564863" duration="31000" />
       <workItem from="1561977282123" duration="645000" />
       <workItem from="1562047100866" duration="35000" />
-      <workItem from="1554532086752" duration="4328000" />
+      <workItem from="1554532086752" duration="5453000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10493000" />
+    <option name="totallyTimeSpent" value="11618000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1425" y="-4" width="1855" height="1084" extended-state="6" />
@@ -343,7 +273,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5135983" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5627615" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -477,9 +407,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/a10_keras_wide_deep_subclass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1099">
+          <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
+          <folding>
+            <element signature="e#595#619#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/a9_keras_wide_deep.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
+        <state relative-caret-position="1004">
           <caret line="86" column="37" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="86" selection-end-column="37" />
           <folding>
             <element signature="e#585#609#0" expanded="true" />
@@ -487,12 +427,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/a10_keras_wide_deep_subclass.py">
+    <entry file="file://$PROJECT_DIR$/a11_keras_wide_deep_multi_inputs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="70" column="20" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
+        <state relative-caret-position="158">
+          <caret line="56" column="47" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
           <folding>
-            <element signature="e#595#619#0" expanded="true" />
+            <element signature="e#599#623#0" expanded="true" />
           </folding>
         </state>
       </provider>
