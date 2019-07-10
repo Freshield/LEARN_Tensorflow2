@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48dfe015-41cd-4da1-bd5b-cb53304ed1e9" name="Default Changelist" comment="" />
+    <list default="true" id="48dfe015-41cd-4da1-bd5b-cb53304ed1e9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../example/chapter_3/tf_keras_regression-manu-diffs.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../example/chapter_3/tf_keras_regression-manu-diffs.ipynb" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +31,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/a11_keras_wide_deep_multi_inputs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
+            <state relative-caret-position="1716">
               <caret line="88" column="37" selection-start-line="16" selection-start-column="3" selection-end-line="88" selection-end-column="37" />
               <folding>
                 <element signature="e#599#623#0" expanded="true" />
@@ -41,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/a12_keras_wide_deep_multi_io.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="902">
-              <caret line="93" column="22" lean-forward="true" selection-start-line="93" selection-start-column="22" selection-end-line="93" selection-end-column="22" />
+            <state relative-caret-position="1826">
+              <caret line="93" column="22" selection-start-line="93" selection-start-column="22" selection-end-line="93" selection-end-column="22" />
               <folding>
                 <element signature="e#595#619#0" expanded="true" />
               </folding>
@@ -53,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/a4_keras_regression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="78" column="37" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="78" selection-end-column="37" />
+            <state relative-caret-position="1496">
+              <caret line="78" column="37" selection-start-line="16" selection-start-column="3" selection-end-line="78" selection-end-column="37" />
               <folding>
                 <element signature="e#586#610#0" expanded="true" />
               </folding>
@@ -65,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/a13_keras_hp_search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="85" column="33" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="85" selection-end-column="33" />
+            <state relative-caret-position="1650">
+              <caret line="85" column="33" selection-start-line="16" selection-start-column="3" selection-end-line="85" selection-end-column="33" />
               <folding>
                 <element signature="e#586#610#0" expanded="true" />
               </folding>
@@ -77,7 +79,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/a14_keras_hp_sklearn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
+            <state relative-caret-position="456">
               <caret line="112" column="36" selection-start-line="112" selection-start-column="36" selection-end-line="112" selection-end-column="36" />
               <folding>
                 <element signature="e#587#611#0" expanded="true" />
@@ -309,16 +311,17 @@
       <workItem from="1561977282123" duration="645000" />
       <workItem from="1562047100866" duration="35000" />
       <workItem from="1554532086752" duration="9105000" />
+      <workItem from="1562293107160" duration="1013000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15270000" />
+    <option name="totallyTimeSpent" value="16283000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1425" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="1424" y="-11" width="1857" height="1092" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18206973" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18428335" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -469,7 +472,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/a11_keras_wide_deep_multi_inputs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
+        <state relative-caret-position="1716">
           <caret line="88" column="37" selection-start-line="16" selection-start-column="3" selection-end-line="88" selection-end-column="37" />
           <folding>
             <element signature="e#599#623#0" expanded="true" />
@@ -479,8 +482,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/a12_keras_wide_deep_multi_io.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="902">
-          <caret line="93" column="22" lean-forward="true" selection-start-line="93" selection-start-column="22" selection-end-line="93" selection-end-column="22" />
+        <state relative-caret-position="1826">
+          <caret line="93" column="22" selection-start-line="93" selection-start-column="22" selection-end-line="93" selection-end-column="22" />
           <folding>
             <element signature="e#595#619#0" expanded="true" />
           </folding>
@@ -489,8 +492,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/a4_keras_regression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="78" column="37" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="78" selection-end-column="37" />
+        <state relative-caret-position="1496">
+          <caret line="78" column="37" selection-start-line="16" selection-start-column="3" selection-end-line="78" selection-end-column="37" />
           <folding>
             <element signature="e#586#610#0" expanded="true" />
           </folding>
@@ -499,8 +502,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/a13_keras_hp_search.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="85" column="33" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="85" selection-end-column="33" />
+        <state relative-caret-position="1650">
+          <caret line="85" column="33" selection-start-line="16" selection-start-column="3" selection-end-line="85" selection-end-column="33" />
           <folding>
             <element signature="e#586#610#0" expanded="true" />
           </folding>
@@ -509,7 +512,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/a14_keras_hp_sklearn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
+        <state relative-caret-position="456">
           <caret line="112" column="36" selection-start-line="112" selection-start-column="36" selection-end-line="112" selection-end-column="36" />
           <folding>
             <element signature="e#587#611#0" expanded="true" />
