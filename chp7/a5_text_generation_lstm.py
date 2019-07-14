@@ -85,7 +85,7 @@ rnn_units = 64
 def build_model(vocab_size, embedding_dim, rnn_units, batch_size):
     model = keras.models.Sequential([
         keras.layers.Embedding(vocab_size, embedding_dim, batch_input_shape=[batch_size, None]),
-        keras.layers.SimpleRNN(units=rnn_units, stateful=True, recurrent_initializer='glorot_uniform',
+        keras.layers.LSTM(units=rnn_units, stateful=True, recurrent_initializer='glorot_uniform',
                                return_sequences=True),
         keras.layers.Dense(vocab_size)
     ])
@@ -124,7 +124,7 @@ example_loss = loss(target_example_batch, example_batch_preditions)
 print(example_loss.shape)
 print(example_loss.numpy().mean())
 
-output_dir = 'data/text_generation_checkpoints'
+output_dir = 'data/text_generation_lstm3_checkpoints'
 if not os.path.exists(output_dir):
     os.mkdir(output_dir)
 checkpoint_prefix = os.path.join(output_dir, 'ckpt_{epoch}')
@@ -149,11 +149,15 @@ def generate_text(model, start_string, num_generate = 1000):
     text_generated = []
     model.reset_states()
 
+    tempreature = 2
+
     for _ in range(num_generate):
 
         predictions = model(input_eval)
 
         predictions = tf.squeeze(predictions, 0)
+
+        predictions = predictions / tempreature
 
         predicted_id = tf.random.categorical(
             predictions, num_samples=1)[-1, 0].numpy()
