@@ -26,6 +26,7 @@ import time
 import tensorflow as tf
 
 from tensorflow.python import keras
+from tensorflow_estimator.python.estimator.api import estimator
 
 print(tf.__version__)
 print(sys.version_info)
@@ -101,3 +102,44 @@ def model_fn(features, labels, mode, params):
     logits = tf.layers.dense(input_for_next_layer,
                              params['n_classes'],
                              activation=None)
+
+    predicted_classes = tf.argmax(logits, 1)
+
+    if mode == estimator.ModeKeys.PREDICT:
+        predictions = {
+            'class_ids': predicted_classes[:, tf.newaxis],
+            'probabilities': tf.nn.softmax(logits),
+            'logits': logits
+        }
+        return estimator.EstimatorSpec(mode, predictions=predictions)
+
+    loss = tf.losses.sparse_softmax_cross_entropy(labels=labels,
+                                                  logits=logits)
+
+    accuracy = tf.metrics.accuracy(labels=labels, predictions=predicted_classes, name='acc_op')
+
+    metrics = {'accuracy': accuracy}
+    if mode == estimator.ModeKeys.EVAL:
+        return estimator.EstimatorSpec(mode, loss=loss, eval_metric_ops=metrics)
+
+    optimizer = tf.train.AdamOptimizer()
+    train_op = optimizer.minimize(loss, global_step=tf.train.get_global_step())
+
+    return estimator.EstimatorSpec(mode, loss=loss, train_op=train_op)
+
+estimator_item = estimator.Estimator(
+    model_fn=model_fn,
+    model_dir=output_dir,
+    params={
+        'feature_columns': feature_columns,
+        'hidden_units': [100, 100],
+        'n_classes': 2
+    })
+
+estimator_item.train(input_fn=lambda : make_dataset(
+    train_df, y_train, epochs=100
+))
+
+print(estimator_item.evaluate(lambda : make_dataset(
+    eval_df, y_eval, epochs=1)))
+
