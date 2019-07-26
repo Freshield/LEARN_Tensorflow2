@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="087a951d-d42b-4ec7-970c-d1536b8acdd2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../chp2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chp2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chp3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chp3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chp5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chp5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chp5/a7_tf1_customized_estimator.py" beforeDir="false" afterPath="$PROJECT_DIR$/../chp5/a7_tf1_customized_estimator.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +27,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/a1_tf_data_basic_api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1364">
+            <state relative-caret-position="475">
               <caret line="72" column="55" selection-start-line="72" selection-start-column="55" selection-end-line="72" selection-end-column="55" />
               <folding>
                 <element signature="e#587#611#0" expanded="true" />
@@ -35,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/a2_tf_data_generate_csv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="32" column="46" selection-start-line="16" selection-start-column="3" selection-end-line="32" selection-end-column="46" />
+            <state relative-caret-position="-698">
+              <caret line="43" column="45" lean-forward="true" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
               <folding>
                 <element signature="e#590#614#0" expanded="true" />
               </folding>
@@ -44,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/a3_use_csv_files.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="32" column="46" selection-start-line="16" selection-start-column="3" selection-end-line="32" selection-end-column="46" />
+            <state relative-caret-position="-242">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="e#583#607#0" expanded="true" />
               </folding>
@@ -59,7 +63,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/a5_tf_tfrecord_basic_api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
+            <state relative-caret-position="22">
               <caret line="35" column="7" selection-start-line="18" selection-end-line="35" selection-end-column="7" />
               <folding>
                 <element signature="e#592#616#0" expanded="true" />
@@ -68,10 +72,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/a6_tf_data_generate_tfrecord.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="992">
+            <state relative-caret-position="3960">
               <caret line="190" column="36" selection-start-line="190" selection-start-column="36" selection-end-line="190" selection-end-column="36" />
               <folding>
                 <element signature="e#595#619#0" expanded="true" />
@@ -118,10 +122,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1429" />
-    <option name="y" value="40" />
-    <option name="width" value="1851" />
-    <option name="height" value="1040" />
+    <option name="x" value="65" />
+    <option name="y" value="518" />
+    <option name="width" value="1855" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -152,6 +156,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -300,20 +305,23 @@
       <updated>1562725046975</updated>
       <workItem from="1562725048324" duration="12672000" />
       <workItem from="1563170257116" duration="32000" />
+      <workItem from="1563524338980" duration="27000" />
+      <workItem from="1564039428313" duration="624000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12704000" />
+    <option name="totallyTimeSpent" value="13355000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1424" y="-11" width="1857" height="1092" extended-state="6" />
+    <frame x="65" y="518" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25235197" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.14001107" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.3294979" />
+      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.3075314" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Python Console" order="4" weight="0.3294979" />
@@ -350,42 +358,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/a1_tf_data_basic_api.py">
+    <entry file="file://$PROJECT_DIR$/a6_tf_data_generate_tfrecord.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1364">
-          <caret line="72" column="55" selection-start-line="72" selection-start-column="55" selection-end-line="72" selection-end-column="55" />
+        <state relative-caret-position="3960">
+          <caret line="190" column="36" selection-start-line="190" selection-start-column="36" selection-end-line="190" selection-end-column="36" />
           <folding>
-            <element signature="e#587#611#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/a2_tf_data_generate_csv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="32" column="46" selection-start-line="16" selection-start-column="3" selection-end-line="32" selection-end-column="46" />
-          <folding>
-            <element signature="e#590#614#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/a3_use_csv_files.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="32" column="46" selection-start-line="16" selection-start-column="3" selection-end-line="32" selection-end-column="46" />
-          <folding>
-            <element signature="e#583#607#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/a5_tf_tfrecord_basic_api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="35" column="7" selection-start-line="18" selection-end-line="35" selection-end-column="7" />
-          <folding>
-            <element signature="e#592#616#0" expanded="true" />
+            <element signature="e#595#619#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -400,12 +378,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/a6_tf_data_generate_tfrecord.py">
+    <entry file="file://$PROJECT_DIR$/a5_tf_tfrecord_basic_api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="992">
-          <caret line="190" column="36" selection-start-line="190" selection-start-column="36" selection-end-line="190" selection-end-column="36" />
+        <state relative-caret-position="22">
+          <caret line="35" column="7" selection-start-line="18" selection-end-line="35" selection-end-column="7" />
           <folding>
-            <element signature="e#595#619#0" expanded="true" />
+            <element signature="e#592#616#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a1_tf_data_basic_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="72" column="55" selection-start-line="72" selection-start-column="55" selection-end-line="72" selection-end-column="55" />
+          <folding>
+            <element signature="e#587#611#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a2_tf_data_generate_csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-698">
+          <caret line="43" column="45" lean-forward="true" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
+          <folding>
+            <element signature="e#590#614#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a3_use_csv_files.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-242">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="e#583#607#0" expanded="true" />
           </folding>
         </state>
       </provider>

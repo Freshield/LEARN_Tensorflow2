@@ -33,6 +33,8 @@ print(sys.version_info)
 for module in mpl, np, pd, sklearn, tf, keras:
     print(module.__name__, module.__version__)
 
+exit()
+
 train_file = "data/titanic/train.csv"
 eval_file = "data/titanic/eval.csv"
 

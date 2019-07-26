@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d018c3b0-15e7-4a21-814c-cd05c076a688" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../chp2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chp2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chp3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chp3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chp4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chp4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/a7_tf1_customized_estimator.py" beforeDir="false" afterPath="$PROJECT_DIR$/a7_tf1_customized_estimator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example/chapter_5_tf1/tf1_customized_estimator.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../example/chapter_5_tf1/tf1_customized_estimator.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,15 +21,15 @@
     <SUITE FILE_PATH="coverage/chp5$a4_tf1_dense_network.coverage" NAME="a4_tf1_dense_network Coverage Results" MODIFIED="1563351008743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chp5$a2_tf_premade_estimators.coverage" NAME="a2_tf_premade_estimators Coverage Results" MODIFIED="1559804296759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chp5$a5_tf1_init_dataset.coverage" NAME="a5_tf1_init_dataset Coverage Results" MODIFIED="1559985556550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/chp5$a7_tf1_customized_estimator.coverage" NAME="a7_tf1_customized_estimator Coverage Results" MODIFIED="1563415877359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chp5$a7_tf1_customized_estimator.coverage" NAME="a7_tf1_customized_estimator Coverage Results" MODIFIED="1563437201570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/a4_tf1_dense_network.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1408">
-              <caret line="74" column="37" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="37" />
+            <state relative-caret-position="2310">
+              <caret line="115" column="54" selection-start-line="115" selection-start-column="54" selection-end-line="115" selection-end-column="54" />
               <folding>
                 <element signature="e#587#611#0" expanded="true" />
               </folding>
@@ -62,8 +64,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/a7_tf1_customized_estimator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="143" column="29" selection-start-line="143" selection-start-column="29" selection-end-line="143" selection-end-column="29" />
+            <state relative-caret-position="299">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="e#594#618#0" expanded="true" />
               </folding>
@@ -84,7 +86,7 @@
         <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/tensorflow/python/keras/utils/data_utils.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3762">
-              <caret line="197" column="45" selection-start-line="197" selection-start-column="36" selection-end-line="197" selection-end-column="45" />
+              <caret line="197" column="23" selection-start-line="197" selection-start-column="23" selection-end-line="197" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -115,8 +117,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="64" />
-    <option name="y" value="511" />
+    <option name="x" value="1424" />
+    <option name="y" value="-11" />
     <option name="width" value="1857" />
     <option name="height" value="1092" />
   </component>
@@ -128,7 +130,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -145,11 +146,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Linkingmed_HT/Codes_HT/OAR_Seg" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -305,22 +307,25 @@
       <workItem from="1563170292861" duration="5189000" />
       <workItem from="1563348520827" duration="4937000" />
       <workItem from="1559985323358" duration="3589000" />
-      <workItem from="1563414688494" duration="1229000" />
+      <workItem from="1563414688494" duration="1269000" />
+      <workItem from="1563430927230" duration="172000" />
+      <workItem from="1563437183325" duration="694000" />
+      <workItem from="1564107655280" duration="504000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14944000" />
+    <option name="totallyTimeSpent" value="16354000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="511" width="1857" height="1092" extended-state="6" />
+    <frame x="1424" y="-11" width="1857" height="1092" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17432208" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18096292" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31171548" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43723848" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -329,7 +334,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32776618" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32740587" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -374,8 +379,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/a4_tf1_dense_network.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1408">
-          <caret line="74" column="37" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="37" />
+        <state relative-caret-position="2310">
+          <caret line="115" column="54" selection-start-line="115" selection-start-column="54" selection-end-line="115" selection-end-column="54" />
           <folding>
             <element signature="e#587#611#0" expanded="true" />
           </folding>
@@ -412,14 +417,14 @@
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/tensorflow/python/keras/utils/data_utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3762">
-          <caret line="197" column="45" selection-start-line="197" selection-start-column="36" selection-end-line="197" selection-end-column="45" />
+          <caret line="197" column="23" selection-start-line="197" selection-start-column="23" selection-end-line="197" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/a7_tf1_customized_estimator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="143" column="29" selection-start-line="143" selection-start-column="29" selection-end-line="143" selection-end-column="29" />
+        <state relative-caret-position="299">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="e#594#618#0" expanded="true" />
           </folding>

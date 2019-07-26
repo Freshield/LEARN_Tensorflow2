@@ -4,12 +4,9 @@
     <list default="true" id="286d64c8-dacb-4ceb-89c2-b3d32ed4e11c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../chp2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chp2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example/chapter_3/tf_basic_api.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../example/chapter_3/tf_basic_api.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example/chapter_3/tf_diffs.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../example/chapter_3/tf_diffs.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example/chapter_3/tf_function_and_auto_graph.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../example/chapter_3/tf_function_and_auto_graph.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example/chapter_3/tf_keras_regression-customized_layer.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../example/chapter_3/tf_keras_regression-customized_layer.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example/chapter_3/tf_keras_regression-customized_loss.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../example/chapter_3/tf_keras_regression-customized_loss.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example/chapter_3/tf_keras_regression-manu-diffs.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../example/chapter_3/tf_keras_regression-manu-diffs.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chp4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chp4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chp5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chp5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chp5/a7_tf1_customized_estimator.py" beforeDir="false" afterPath="$PROJECT_DIR$/../chp5/a7_tf1_customized_estimator.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +27,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/a5_tf_diffs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
+            <state relative-caret-position="-1284">
               <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
             </state>
           </provider>
@@ -39,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/a6_tf_keras_regression_manu_diffs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1077">
-              <caret line="95" selection-start-line="95" selection-end-line="95" />
+            <state relative-caret-position="-734">
+              <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
               <folding>
                 <element signature="e#600#624#0" expanded="true" />
               </folding>
@@ -49,10 +46,49 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/tensorflow/python/keras/optimizer_v2/optimizer_v2.py">
+        <entry file="file://$PROJECT_DIR$/a2_tf_keras_regression_customized_loss.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19338">
-              <caret line="908" column="4" selection-start-line="908" selection-start-column="4" selection-end-line="908" selection-end-column="4" />
+            <state relative-caret-position="300">
+              <caret line="71" column="33" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="33" />
+              <folding>
+                <element signature="e#605#629#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/a3_tf_keras_customized_layer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="104" column="5" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
+              <folding>
+                <element signature="e#595#619#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/a1_tf_basic_api.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="542">
+              <caret line="116" column="7" lean-forward="true" selection-start-line="116" selection-start-column="7" selection-end-line="116" selection-end-column="7" />
+              <folding>
+                <element signature="e#582#606#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/a4_tf_function_and_auto_graph.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="828">
+              <caret line="110" column="33" selection-start-line="110" selection-start-column="33" selection-end-line="110" selection-end-column="33" />
+              <folding>
+                <element signature="e#596#620#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,7 +96,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/tensorflow/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2530">
+            <state relative-caret-position="8558">
               <caret line="394" column="14" selection-start-line="394" selection-start-column="14" selection-end-line="394" selection-end-column="14" />
             </state>
           </provider>
@@ -101,10 +137,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1839" />
-    <option name="y" value="112" />
-    <option name="width" value="1853" />
-    <option name="height" value="1076" />
+    <option name="x" value="65" />
+    <option name="y" value="518" />
+    <option name="width" value="1855" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -130,6 +166,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../chp4" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -280,17 +317,19 @@
       <workItem from="1562568724774" duration="10269000" />
       <workItem from="1557658286128" duration="466000" />
       <workItem from="1562724967481" duration="79000" />
+      <workItem from="1563524216437" duration="121000" />
+      <workItem from="1563524366963" duration="75000" />
+      <workItem from="1564039024520" duration="402000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13232000" />
+    <option name="totallyTimeSpent" value="13830000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1424" y="-11" width="1857" height="1092" extended-state="6" />
-    <editor active="true" />
+    <frame x="65" y="518" width="1855" height="1084" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2589928" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1449917" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -317,36 +356,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/a1_tf_basic_api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="116" column="7" lean-forward="true" selection-start-line="116" selection-start-column="7" selection-end-line="116" selection-end-column="7" />
-          <folding>
-            <element signature="e#582#606#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/a3_tf_keras_customized_layer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="104" column="5" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
-          <folding>
-            <element signature="e#595#619#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/a4_tf_function_and_auto_graph.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="110" column="33" selection-start-line="110" selection-start-column="33" selection-end-line="110" selection-end-column="33" />
-          <folding>
-            <element signature="e#596#620#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/tensorflow/python/keras/optimizers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5990">
@@ -354,33 +363,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/a2_tf_keras_regression_customized_loss.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
-          <caret line="91" column="34" selection-start-line="91" selection-start-column="34" selection-end-line="91" selection-end-column="34" />
-          <folding>
-            <element signature="e#605#629#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/a5_tf_diffs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/tensorflow/python/keras/optimizer_v2/optimizer_v2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19338">
-          <caret line="908" column="4" selection-start-line="908" selection-start-column="4" selection-end-line="908" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/tensorflow/python/keras/optimizer_v2/optimizer_v2.py" />
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/tensorflow/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2530">
+        <state relative-caret-position="8558">
           <caret line="394" column="14" selection-start-line="394" selection-start-column="14" selection-end-line="394" selection-end-column="14" />
         </state>
       </provider>
@@ -392,10 +378,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/a1_tf_basic_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="116" column="7" lean-forward="true" selection-start-line="116" selection-start-column="7" selection-end-line="116" selection-end-column="7" />
+          <folding>
+            <element signature="e#582#606#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a2_tf_keras_regression_customized_loss.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="71" column="33" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="33" />
+          <folding>
+            <element signature="e#605#629#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a3_tf_keras_customized_layer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="104" column="5" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
+          <folding>
+            <element signature="e#595#619#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a4_tf_function_and_auto_graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="110" column="33" selection-start-line="110" selection-start-column="33" selection-end-line="110" selection-end-column="33" />
+          <folding>
+            <element signature="e#596#620#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a5_tf_diffs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1284">
+          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/a6_tf_keras_regression_manu_diffs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1077">
-          <caret line="95" selection-start-line="95" selection-end-line="95" />
+        <state relative-caret-position="-734">
+          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
           <folding>
             <element signature="e#600#624#0" expanded="true" />
           </folding>
