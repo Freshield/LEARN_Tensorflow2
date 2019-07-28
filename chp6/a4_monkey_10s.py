@@ -40,6 +40,7 @@ print(sys.version_info)
 for module in mpl, np, pd, sklearn, tf, keras:
     print(module.__name__, module.__version__)
 
+
 train_dir = os.path.join(data_dir, 'training')
 valid_dir = os.path.join(data_dir, 'validation')
 label_file = os.path.join(data_dir, 'monkey_labels.txt')
