@@ -131,3 +131,8 @@ def plot_learning_curves(history, label, epochs, min_value, max_value):
 
 plot_learning_curves(history, 'acc', 30, 0, 1)
 plot_learning_curves(history, 'loss', 30, 0, 1)
+
+print(model.evaluate(
+    test_data, train_labels,
+    batch_size=batch_size
+))
