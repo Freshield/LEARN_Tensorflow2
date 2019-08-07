@@ -25,7 +25,7 @@ import sys
 import time
 import tensorflow as tf
 
-from tensorflow import keras
+from tensorflow.python.keras.api._v2 import keras
 
 print(tf.__version__)
 print(sys.version_info)
@@ -95,8 +95,9 @@ batch_size = 16
 model = keras.models.Sequential([
     # 1. define matrix: [vocab_size, embedding_dim]
     # vocab_size是一共有多少个单词
-    # 2. [1,2,3,4..], max_length * embedding_dim
+    # 2. [1,2,3,4..], max_length, embedding_dim
     # 3. batch_size * max_length * embedding_dim
+    #
     # input_length就是max_length就是一个句子的长度
     # 输入是 batch, max_length,
     # embedding matrix是 vocab_size, embedding_dim
@@ -129,7 +130,7 @@ def plot_learning_curves(history, label, epochs, min_value, max_value):
     plt.axis([0, epochs, min_value, max_value])
     plt.show()
 
-plot_learning_curves(history, 'acc', 30, 0, 1)
+plot_learning_curves(history, 'accuracy', 30, 0, 1)
 plot_learning_curves(history, 'loss', 30, 0, 1)
 
 print(model.evaluate(
