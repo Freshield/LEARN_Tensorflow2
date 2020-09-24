@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="24f28e4a-868b-4b53-b50d-be8ee9d528d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a5_tfhub_imdb.py" beforeDir="false" afterPath="$PROJECT_DIR$/a5_tfhub_imdb.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +34,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
-  <component name="RunManager" selected="Python.a5_tfhub_imdb">
+  <component name="RunManager" selected="Python.a6_regraession">
     <configuration name="a2_secondtry" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="official_tutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -124,8 +123,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="a6_regraession" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="official_tutorial" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/a6_regraession.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.a6_regraession" />
         <item itemvalue="Python.a5_tfhub_imdb" />
         <item itemvalue="Python.a4_imdb" />
         <item itemvalue="Python.a2_secondtry" />
@@ -153,7 +175,7 @@
       <workItem from="1601103150512" duration="5813000" />
       <workItem from="1601024044296" duration="1034000" />
       <workItem from="1601088490002" duration="508000" />
-      <workItem from="1601434761596" duration="2148000" />
+      <workItem from="1601434761596" duration="6471000" />
     </task>
     <servers />
   </component>
@@ -161,22 +183,22 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="2415" height="446" key="GridCell.Tab.0.bottom" timestamp="1601436418285">
+    <state width="2415" height="463" key="GridCell.Tab.0.bottom" timestamp="1601451083072">
       <screen x="0" y="464" width="2560" height="1440" />
     </state>
-    <state width="2415" height="446" key="GridCell.Tab.0.bottom/0.464.2560.1440/2560.0.1440.2560@0.464.2560.1440" timestamp="1601436418285" />
-    <state width="2415" height="446" key="GridCell.Tab.0.center" timestamp="1601436418285">
+    <state width="2415" height="463" key="GridCell.Tab.0.bottom/0.464.2560.1440/2560.0.1440.2560@0.464.2560.1440" timestamp="1601451083072" />
+    <state width="2415" height="463" key="GridCell.Tab.0.center" timestamp="1601451083072">
       <screen x="0" y="464" width="2560" height="1440" />
     </state>
-    <state width="2415" height="446" key="GridCell.Tab.0.center/0.464.2560.1440/2560.0.1440.2560@0.464.2560.1440" timestamp="1601436418285" />
-    <state width="2415" height="446" key="GridCell.Tab.0.left" timestamp="1601436418285">
+    <state width="2415" height="463" key="GridCell.Tab.0.center/0.464.2560.1440/2560.0.1440.2560@0.464.2560.1440" timestamp="1601451083072" />
+    <state width="2415" height="463" key="GridCell.Tab.0.left" timestamp="1601451083072">
       <screen x="0" y="464" width="2560" height="1440" />
     </state>
-    <state width="2415" height="446" key="GridCell.Tab.0.left/0.464.2560.1440/2560.0.1440.2560@0.464.2560.1440" timestamp="1601436418285" />
-    <state width="2415" height="446" key="GridCell.Tab.0.right" timestamp="1601436418285">
+    <state width="2415" height="463" key="GridCell.Tab.0.left/0.464.2560.1440/2560.0.1440.2560@0.464.2560.1440" timestamp="1601451083072" />
+    <state width="2415" height="463" key="GridCell.Tab.0.right" timestamp="1601451083072">
       <screen x="0" y="464" width="2560" height="1440" />
     </state>
-    <state width="2415" height="446" key="GridCell.Tab.0.right/0.464.2560.1440/2560.0.1440.2560@0.464.2560.1440" timestamp="1601436418285" />
+    <state width="2415" height="463" key="GridCell.Tab.0.right/0.464.2560.1440/2560.0.1440.2560@0.464.2560.1440" timestamp="1601451083072" />
     <state x="727" y="726" width="1188" height="910" key="SettingsEditor" timestamp="1601434831697">
       <screen x="0" y="464" width="2560" height="1440" />
     </state>
@@ -184,6 +206,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/official_tutorial$a3_fashion_mnist.coverage" NAME="a3_fashion_mnist Coverage Results" MODIFIED="1601194983337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/official_tutorial$a6_regraession.coverage" NAME="a6_regraession Coverage Results" MODIFIED="1601451290807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/official_tutorial$a2_secondtry.coverage" NAME="a2_secondtry Coverage Results" MODIFIED="1601195019546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/official_tutorial$a5_tfhub_imdb.coverage" NAME="a5_tfhub_imdb Coverage Results" MODIFIED="1601436418277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/official_tutorial$a4_imdb.coverage" NAME="a4_imdb Coverage Results" MODIFIED="1601025050084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
