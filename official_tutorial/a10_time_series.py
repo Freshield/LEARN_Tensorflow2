@@ -224,6 +224,23 @@ class WindowGenerator():
     def train(self):
         return self.make_dataset(self.train_df)
 
+    @property
+    def val(self):
+        return self.make_dataset(self.val_df)
+
+    @property
+    def test(self):
+        return self.make_dataset(self.test_df)
+
+    @property
+    def example(self):
+        result = getattr(self, '_example', None)
+        if result is None:
+            result = next(iter(self.train))
+            self._example = result
+
+        return result
+
 
 w1 = WindowGenerator(input_width=24, label_width=1, shift=24, label_columns=['T (degC)'])
 print(w1)
@@ -240,7 +257,101 @@ print(f'Windows shape: {example_windows.shape}')
 print(f'Inputs shape: {example_inputs.shape}')
 print(f'labels shape: {example_labels.shape}')
 
-w2.example = example_inputs, example_labels
-w2.plot()
+# w2.example = example_inputs, example_labels
+# w2.plot()
+
+print(w2.train.element_spec)
+
+for example_inputs, example_labels in w2.train.take(1):
+    print(f'Input shape (batch, time, features): {example_inputs.shape}')
+    print(f'Labels shape (batch, time, features): {example_labels.shape}')
+
+single_step_window = WindowGenerator(
+    input_width=1, label_width=1, shift=1,
+    label_columns=['T (degC)'])
+
+print(single_step_window)
+
+for example_inputs, example_labels in single_step_window.train.take(1):
+    print(f'Input shape (batch, time, features): {example_inputs.shape}')
+    print(f'Labels shape (batch, time, features): {example_labels.shape}')
 
 
+class Baseline(tf.keras.Model):
+    def __init__(self, label_index=None):
+        super().__init__()
+        self.label_index = label_index
+
+    def call(self, inputs):
+        if self.label_index is None:
+            return inputs
+        result = inputs[:, :, self.label_index]
+
+        return result[:, :, tf.newaxis]
+
+
+val_performance = dict()
+performance = dict()
+
+wide_window = WindowGenerator(
+    input_width=24, label_width=24, shift=1,
+    label_columns=['T (degC)']
+)
+
+MAX_EPOCHS = 20
+
+
+def compile_and_fit(model, window, save_dir, patience=2):
+    early_stopping = tf.keras.callbacks.EarlyStopping(monitor='val_loss',
+                                                      patience=patience,
+                                                      mode='min')
+
+    model.compile(loss=tf.losses.MeanSquaredError(),
+                  optimizer=tf.optimizers.Adam(),
+                  metrics=[tf.metrics.MeanAbsoluteError()])
+
+    history = model.fit(window.train, epochs=MAX_EPOCHS,
+                        validation_data=window.val,
+                        callbacks=[early_stopping])
+
+    model.save(save_dir)
+
+    return history
+
+
+# baseline = Baseline(label_index=column_indices['T (degC)'])
+# baseline.compile(loss=tf.losses.MeanSquaredError(),
+#                  metrics=[tf.metrics.MeanAbsoluteError()])
+# baseline.predict(single_step_window.val)
+# baseline.save('data/time_series/baseline')
+# baseline = tf.keras.models.load_model('data/time_series/baseline')
+# val_performance['Baseline'] = baseline.evaluate(single_step_window.val)
+# performance['Baseline'] = baseline.evaluate(single_step_window.test, verbose=0)
+# print(val_performance)
+# print(performance)
+# {'Baseline': [0.012845649383962154, 0.07846629619598389]}
+# {'Baseline': [0.014162620529532433, 0.08516010642051697]}
+# wide_window.plot(baseline)
+
+
+# linear = tf.keras.Sequential([
+#     tf.keras.layers.Dense(units=1)
+# ])
+# print(f'Input shape: {single_step_window.example[0].shape}')
+# print(f'Output shape: {linear(single_step_window.example[0]).shape}')
+# history = compile_and_fit(linear, single_step_window, 'data/time_series/linear')
+# val_performance['Linear'] = linear.evaluate(single_step_window.val)
+# performance['Linear'] = linear.evaluate(single_step_window.test, verbose=0)
+# print(val_performance)
+# print(performance)
+# {'Linear': [0.008607517927885056, 0.06847935169935226]}
+# {'Linear': [0.008367066271603107, 0.06690479069948196]}
+linear = tf.keras.models.load_model('data/time_series/linear')
+# linear.summary()
+# wide_window.plot(linear)
+plt.bar(x = range(len(train_df.columns)),
+        height=linear.layers[0].kernel[:,0].numpy())
+axis = plt.gca()
+axis.set_xticks(range(len(train_df.columns)))
+_ = axis.set_xticklabels(train_df.columns, rotation=90)
+plt.show()
