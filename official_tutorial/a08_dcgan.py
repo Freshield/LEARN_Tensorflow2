@@ -100,7 +100,7 @@ cross_entropy = tf.keras.losses.BinaryCrossentropy(from_logits=True)
 
 def discriminator_loss(real_output, fake_output):
     real_loss = cross_entropy(tf.ones_like(real_output), real_output)
-    fake_loss = cross_entropy(tf.ones_like(fake_output), fake_output)
+    fake_loss = cross_entropy(tf.zeros_like(fake_output), fake_output)
     total_loss = real_loss + fake_loss
 
     return total_loss
@@ -114,7 +114,7 @@ generator_optimizer = tf.keras.optimizers.Adam(1e-4)
 discriminator_optimizer = tf.keras.optimizers.Adam(1e-4)
 
 
-checkpoint_dir = './training_checkpoints'
+checkpoint_dir = 'data/training_checkpoints'
 checkpoint_prefix = os.path.join(checkpoint_dir, 'ckpt')
 checkpoint = tf.train.Checkpoint(
     generator_optimizer=generator_optimizer,
@@ -122,11 +122,40 @@ checkpoint = tf.train.Checkpoint(
     generator=generator,
     discriminator=discriminator)
 
-EPOCHS = 50
+EPOCHS = 500
 noise_dim = 100
 num_example_to_generate = 16
 
 seed = tf.random.normal([num_example_to_generate, noise_dim])
+
+
+def train_generator_step():
+    noise = tf.random.normal([BATCH_SIZE, noise_dim])
+
+    with tf.GradientTape() as gen_tape:
+        generated_images = generator(noise, training=True)
+
+        fake_output = discriminator(generated_images, training=True)
+
+        gen_loss = generator_loss(fake_output)
+
+    gradients_of_generator = gen_tape.gradient(gen_loss, generator.trainable_variables)
+    generator_optimizer.apply_gradients(zip(gradients_of_generator, generator.trainable_variables))
+
+
+def train_discriminator_step(images):
+    noise = tf.random.normal([BATCH_SIZE, noise_dim])
+
+    with tf.GradientTape() as disc_tape:
+        generated_images = generator(noise, training=True)
+
+        real_output = discriminator(images, training=True)
+        fake_output = discriminator(generated_images, training=True)
+
+        disc_loss = discriminator_loss(real_output, fake_output)
+
+    gradients_of_discriminator = disc_tape.gradient(disc_loss, discriminator.trainable_variables)
+    discriminator_optimizer.apply_gradients(zip(gradients_of_discriminator, discriminator.trainable_variables))
 
 
 @tf.function
@@ -149,6 +178,14 @@ def train_step(images):
     discriminator_optimizer.apply_gradients(zip(gradients_of_discriminator, discriminator.trainable_variables))
 
 
+@tf.function
+def train_separate_step(images):
+    for image in images:
+        train_discriminator_step(image)
+
+    train_generator_step()
+
+
 def generate_and_save_images(model, epoch, test_input):
     predictions = model(test_input, training=False)
 
@@ -159,8 +196,9 @@ def generate_and_save_images(model, epoch, test_input):
         plt.imshow(predictions[i, ..., 0] * 127.5 + 127.5, cmap='gray')
         plt.axis('off')
 
-    plt.savefig(f'image_at_epoch_{epoch:04d}.png')
-    plt.show()
+    plt.savefig(f'data/dcgan/image_at_epoch_{epoch:04d}.png')
+    # plt.show()
+    plt.close()
 
 
 def train(dataset, epochs):
@@ -168,6 +206,12 @@ def train(dataset, epochs):
         start = time.time()
 
         tq = tqdm.tqdm(dataset, 'Training the batch...')
+        # tmp_image_list = []
+        # for i, image_batch in enumerate(tq):
+        #     tmp_image_list.append(image_batch)
+        #     if (i+1) % 2 == 0:
+        #         train_separate_step(tmp_image_list)
+        #         tmp_image_list = []
         for image_batch in tq:
             train_step(image_batch)
 

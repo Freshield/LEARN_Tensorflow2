@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24f28e4a-868b-4b53-b50d-be8ee9d528d5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/official_tutorial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/official_tutorial.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a08_dcgan.py" beforeDir="false" afterPath="$PROJECT_DIR$/a08_dcgan.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/a10_time_series.py" beforeDir="false" afterPath="$PROJECT_DIR$/a10_time_series.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="JupyterTrust" id="e2014503-e493-4c0b-94c6-131a3ed87e91" />
   <component name="ProjectId" id="1i7fuGWYCgmUVtChVrBKbrk9Fju" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -36,6 +40,28 @@
     <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RunManager" selected="Python.a10_time_series">
+    <configuration name="a08_dcgan" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="official_tutorial" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/a08_dcgan.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="a10_time_series" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="official_tutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -50,28 +76,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/a10_time_series.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="a8_dcgan" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="official_tutorial" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/a8_dcgan.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,10 +153,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.a10_time_series" />
+        <item itemvalue="Python.a08_dcgan" />
         <item itemvalue="Python.t2_test_slice" />
         <item itemvalue="Python.a9_pix_to_pix" />
         <item itemvalue="Python.t1_test_iterable" />
-        <item itemvalue="Python.a8_dcgan" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +184,10 @@
       <workItem from="1601973511482" duration="2296000" />
       <workItem from="1602061405682" duration="4391000" />
       <workItem from="1602121796966" duration="26000" />
-      <workItem from="1602122043634" duration="9653000" />
+      <workItem from="1602122043634" duration="10725000" />
+      <workItem from="1602210128092" duration="10079000" />
+      <workItem from="1602309515020" duration="603000" />
+      <workItem from="1602475415328" duration="3864000" />
     </task>
     <servers />
   </component>
@@ -192,42 +199,43 @@
       <screen x="0" y="23" width="1344" height="817" />
     </state>
     <state x="488" y="154" key="#com.intellij.ide.util.MemberChooser/0.23.1344.817@0.23.1344.817" timestamp="1602145309045" />
-    <state width="1302" height="163" key="GridCell.Tab.0.bottom" timestamp="1602149800643">
-      <screen x="0" y="23" width="1344" height="817" />
+    <state width="2415" height="407" key="GridCell.Tab.0.bottom" timestamp="1602484741827">
+      <screen x="0" y="464" width="2560" height="1440" />
     </state>
-    <state width="1302" height="163" key="GridCell.Tab.0.bottom/0.23.1344.817@0.23.1344.817" timestamp="1602149800643" />
-    <state width="2415" height="373" key="GridCell.Tab.0.bottom/0.464.2560.1440/2560.0.1440.2560@0.464.2560.1440" timestamp="1601451960304" />
-    <state width="1302" height="163" key="GridCell.Tab.0.center" timestamp="1602149800642">
-      <screen x="0" y="23" width="1344" height="817" />
+    <state width="1302" height="163" key="GridCell.Tab.0.bottom/0.23.1344.817@0.23.1344.817" timestamp="1602150984542" />
+    <state width="2415" height="407" key="GridCell.Tab.0.bottom/0.464.2560.1440/2560.0.1440.2560@0.464.2560.1440" timestamp="1602484741827" />
+    <state width="2415" height="407" key="GridCell.Tab.0.center" timestamp="1602484741827">
+      <screen x="0" y="464" width="2560" height="1440" />
     </state>
-    <state width="1302" height="163" key="GridCell.Tab.0.center/0.23.1344.817@0.23.1344.817" timestamp="1602149800642" />
-    <state width="2415" height="373" key="GridCell.Tab.0.center/0.464.2560.1440/2560.0.1440.2560@0.464.2560.1440" timestamp="1601451960304" />
-    <state width="1302" height="163" key="GridCell.Tab.0.left" timestamp="1602149800642">
-      <screen x="0" y="23" width="1344" height="817" />
+    <state width="1302" height="163" key="GridCell.Tab.0.center/0.23.1344.817@0.23.1344.817" timestamp="1602150984541" />
+    <state width="2415" height="407" key="GridCell.Tab.0.center/0.464.2560.1440/2560.0.1440.2560@0.464.2560.1440" timestamp="1602484741827" />
+    <state width="2415" height="407" key="GridCell.Tab.0.left" timestamp="1602484741827">
+      <screen x="0" y="464" width="2560" height="1440" />
     </state>
-    <state width="1302" height="163" key="GridCell.Tab.0.left/0.23.1344.817@0.23.1344.817" timestamp="1602149800642" />
-    <state width="2415" height="373" key="GridCell.Tab.0.left/0.464.2560.1440/2560.0.1440.2560@0.464.2560.1440" timestamp="1601451960303" />
-    <state width="1302" height="163" key="GridCell.Tab.0.right" timestamp="1602149800643">
-      <screen x="0" y="23" width="1344" height="817" />
+    <state width="1302" height="163" key="GridCell.Tab.0.left/0.23.1344.817@0.23.1344.817" timestamp="1602150984540" />
+    <state width="2415" height="407" key="GridCell.Tab.0.left/0.464.2560.1440/2560.0.1440.2560@0.464.2560.1440" timestamp="1602484741827" />
+    <state width="2415" height="407" key="GridCell.Tab.0.right" timestamp="1602484741827">
+      <screen x="0" y="464" width="2560" height="1440" />
     </state>
-    <state width="1302" height="163" key="GridCell.Tab.0.right/0.23.1344.817@0.23.1344.817" timestamp="1602149800643" />
-    <state width="2415" height="373" key="GridCell.Tab.0.right/0.464.2560.1440/2560.0.1440.2560@0.464.2560.1440" timestamp="1601451960304" />
+    <state width="1302" height="163" key="GridCell.Tab.0.right/0.23.1344.817@0.23.1344.817" timestamp="1602150984542" />
+    <state width="2415" height="407" key="GridCell.Tab.0.right/0.464.2560.1440/2560.0.1440.2560@0.464.2560.1440" timestamp="1602484741827" />
     <state x="727" y="726" width="1188" height="910" key="SettingsEditor" timestamp="1601434831697">
       <screen x="0" y="464" width="2560" height="1440" />
     </state>
     <state x="727" y="726" width="1188" height="910" key="SettingsEditor/0.464.2560.1440/2560.0.1440.2560@0.464.2560.1440" timestamp="1601434831697" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/official_tutorial$a8_dcgan.coverage" NAME="a8_dcgan Coverage Results" MODIFIED="1602064477362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/official_tutorial$a7_save_and_load.coverage" NAME="a7_save_and_load Coverage Results" MODIFIED="1601975402667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/official_tutorial$a3_fashion_mnist.coverage" NAME="a3_fashion_mnist Coverage Results" MODIFIED="1601194983337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/official_tutorial$t1_test_iterable.coverage" NAME="t1_test_iterable Coverage Results" MODIFIED="1602064547902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/official_tutorial$a08_dcgan.coverage" NAME="a08_dcgan Coverage Results" MODIFIED="1602224524911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/official_tutorial$t2_test_slice.coverage" NAME="t2_test_slice Coverage Results" MODIFIED="1602130568332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/official_tutorial$a6_regraession.coverage" NAME="a6_regraession Coverage Results" MODIFIED="1601451290807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/official_tutorial$a9_pix_to_pix.coverage" NAME="a9_pix_to_pix Coverage Results" MODIFIED="1602066184069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/official_tutorial$a2_secondtry.coverage" NAME="a2_secondtry Coverage Results" MODIFIED="1601195019546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/official_tutorial$a5_tfhub_imdb.coverage" NAME="a5_tfhub_imdb Coverage Results" MODIFIED="1601436418277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/official_tutorial$a4_imdb.coverage" NAME="a4_imdb Coverage Results" MODIFIED="1601025050084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/official_tutorial$a7_save_and_load.coverage" NAME="a7_save_and_load Coverage Results" MODIFIED="1601975402667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/official_tutorial$a9_pix_to_pix.coverage" NAME="a9_pix_to_pix Coverage Results" MODIFIED="1602066184069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/official_tutorial$a3_fashion_mnist.coverage" NAME="a3_fashion_mnist Coverage Results" MODIFIED="1601194983337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/official_tutorial$t1_test_iterable.coverage" NAME="t1_test_iterable Coverage Results" MODIFIED="1602064547902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/official_tutorial$a8_dcgan.coverage" NAME="a8_dcgan Coverage Results" MODIFIED="1602064477362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/official_tutorial$a10_time_series.coverage" NAME="a10_time_series Coverage Results" MODIFIED="1602150033083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/official_tutorial$a10_time_series.coverage" NAME="a10_time_series Coverage Results" MODIFIED="1602484701515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

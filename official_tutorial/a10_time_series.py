@@ -346,12 +346,104 @@ def compile_and_fit(model, window, save_dir, patience=2):
 # print(performance)
 # {'Linear': [0.008607517927885056, 0.06847935169935226]}
 # {'Linear': [0.008367066271603107, 0.06690479069948196]}
-linear = tf.keras.models.load_model('data/time_series/linear')
+# linear = tf.keras.models.load_model('data/time_series/linear')
 # linear.summary()
 # wide_window.plot(linear)
-plt.bar(x = range(len(train_df.columns)),
-        height=linear.layers[0].kernel[:,0].numpy())
-axis = plt.gca()
-axis.set_xticks(range(len(train_df.columns)))
-_ = axis.set_xticklabels(train_df.columns, rotation=90)
-plt.show()
+# plt.bar(x = range(len(train_df.columns)),
+#         height=linear.layers[0].kernel[:,0].numpy())
+# axis = plt.gca()
+# axis.set_xticks(range(len(train_df.columns)))
+# _ = axis.set_xticklabels(train_df.columns, rotation=90)
+# plt.show()
+
+
+# dense = tf.keras.Sequential([
+#     tf.keras.layers.Dense(units=64, activation='relu'),
+#     tf.keras.layers.Dense(units=64, activation='relu'),
+#     tf.keras.layers.Dense(units=1)
+# ])
+# history = compile_and_fit(dense, single_step_window, 'data/time_series/dense')
+# val_performance['Dense'] = dense.evaluate(single_step_window.val)
+# performance['Dense'] = dense.evaluate(single_step_window.test, verbose=0)
+# print(val_performance)
+# print(performance)
+# {'Dense': [0.007389315869659185, 0.06134752556681633]}
+# {'Dense': [0.007670558523386717, 0.06355921924114227]}
+# dense = tf.keras.models.load_model('data/time_series/dense')
+# wide_window.plot(dense)
+
+
+CONV_WIDTH = 3
+conv_window = WindowGenerator(
+    input_width=CONV_WIDTH,
+    label_width=1,
+    shift=1,
+    label_columns=['T (degC)']
+)
+# print()
+# print(conv_window)
+# conv_window.plot()
+
+
+# multi_step_dense = tf.keras.Sequential([
+#     # Shape: (time, features) => (time*features)
+#     tf.keras.layers.Flatten(),
+#     tf.keras.layers.Dense(units=32, activation='relu'),
+#     tf.keras.layers.Dense(units=32, activation='relu'),
+#     tf.keras.layers.Dense(units=1),
+#     # Shape: (outputs) => (1, outputs)
+#     tf.keras.layers.Reshape([1, -1])
+# ])
+# print(f'Input shape: {conv_window.example[0].shape}')
+# print(f'Output shape: {multi_step_dense(conv_window.example[0]).shape}')
+# history = compile_and_fit(multi_step_dense, conv_window, 'data/time_series/multi_step_dense')
+# val_performance['Multi step dense'] = multi_step_dense.evaluate(conv_window.val)
+# performance['Multi step dense'] = multi_step_dense.evaluate(conv_window.test, verbose=0)
+# print(val_performance)
+# print(performance)
+# {'Multi step dense': [0.006903897970914841, 0.05890052020549774]}
+# {'Multi step dense': [0.00703806895762682, 0.06022002547979355]}
+# conv_window.plot(multi_step_dense)
+# multi_step_dense = tf.keras.models.load_model('data/time_series/multi_step_dense')
+# print('Input shape:', wide_window.example[0].shape)
+# try:
+#   print('Output shape:', multi_step_dense(wide_window.example[0]).shape)
+# except Exception as e:
+#   print(f'\n{type(e).__name__}:{e}')
+
+# conv_model = tf.keras.Sequential([
+#     tf.keras.layers.Conv1D(filters=32, kernel_size=(CONV_WIDTH,), activation='relu'),
+#     tf.keras.layers.Dense(units=32, activation='relu'),
+#     tf.keras.layers.Dense(units=1)
+# ])
+# conv_model.build(input_shape=(32, 24, 19))
+# conv_model.build(input_shape=(32, 3, 19))
+# conv_model.summary()
+# print('Conv model on "conv window"')
+# print(f'Input shape: {conv_window.example[0].shape}')
+# print(f'Output shape: {conv_model(conv_window.example[0]).shape}')
+# history = compile_and_fit(conv_model, conv_window, 'data/time_series/conv')
+# val_performance['Conv'] = conv_model.evaluate(conv_window.val)
+# performance['Conv'] = conv_model.evaluate(conv_window.test, verbose=0)
+# print(val_performance)
+# print(performance)
+# {'Conv': [0.005989380646497011, 0.05319361388683319]}
+# {'Conv': [0.005987438373267651, 0.05417366698384285]}
+conv_model = tf.keras.models.load_model('data/time_series/conv')
+# print("Wide window")
+# print('Input shape:', wide_window.example[0].shape)
+# print('Labels shape:', wide_window.example[1].shape)
+# print('Output shape:', conv_model(wide_window.example[0]).shape)
+LABEL_WIDTH = 24
+INPUT_WIDTH = LABEL_WIDTH + (CONV_WIDTH - 1)
+wide_conv_window = WindowGenerator(
+    input_width=INPUT_WIDTH,
+    label_width=LABEL_WIDTH,
+    shift=1,
+    label_columns=['T (degC)']
+)
+print("Wide conv window")
+print('Input shape:', wide_conv_window.example[0].shape)
+print('Labels shape:', wide_conv_window.example[1].shape)
+print('Output shape:', conv_model(wide_conv_window.example[0]).shape)
+wide_conv_window.plot(conv_model)
