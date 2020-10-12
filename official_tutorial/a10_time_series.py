@@ -301,7 +301,7 @@ wide_window = WindowGenerator(
 MAX_EPOCHS = 20
 
 
-def compile_and_fit(model, window, save_dir, patience=2):
+def compile_and_fit(model, window, save_dir=None, patience=2):
     early_stopping = tf.keras.callbacks.EarlyStopping(monitor='val_loss',
                                                       patience=patience,
                                                       mode='min')
@@ -314,7 +314,8 @@ def compile_and_fit(model, window, save_dir, patience=2):
                         validation_data=window.val,
                         callbacks=[early_stopping])
 
-    model.save(save_dir)
+    if save_dir is not None:
+        model.save(save_dir)
 
     return history
 
@@ -329,8 +330,8 @@ def compile_and_fit(model, window, save_dir, patience=2):
 # performance['Baseline'] = baseline.evaluate(single_step_window.test, verbose=0)
 # print(val_performance)
 # print(performance)
-# {'Baseline': [0.012845649383962154, 0.07846629619598389]}
-# {'Baseline': [0.014162620529532433, 0.08516010642051697]}
+val_performance['Baseline'] = [0.012845649383962154, 0.07846629619598389]
+performance['Baseline'] = [0.014162620529532433, 0.08516010642051697]
 # wide_window.plot(baseline)
 
 
@@ -344,8 +345,8 @@ def compile_and_fit(model, window, save_dir, patience=2):
 # performance['Linear'] = linear.evaluate(single_step_window.test, verbose=0)
 # print(val_performance)
 # print(performance)
-# {'Linear': [0.008607517927885056, 0.06847935169935226]}
-# {'Linear': [0.008367066271603107, 0.06690479069948196]}
+val_performance['Linear'] = [0.008607517927885056, 0.06847935169935226]
+performance['Linear'] = [0.008367066271603107, 0.06690479069948196]
 # linear = tf.keras.models.load_model('data/time_series/linear')
 # linear.summary()
 # wide_window.plot(linear)
@@ -367,8 +368,8 @@ def compile_and_fit(model, window, save_dir, patience=2):
 # performance['Dense'] = dense.evaluate(single_step_window.test, verbose=0)
 # print(val_performance)
 # print(performance)
-# {'Dense': [0.007389315869659185, 0.06134752556681633]}
-# {'Dense': [0.007670558523386717, 0.06355921924114227]}
+val_performance['Dense'] = [0.007389315869659185, 0.06134752556681633]
+performance['Dense'] = [0.007670558523386717, 0.06355921924114227]
 # dense = tf.keras.models.load_model('data/time_series/dense')
 # wide_window.plot(dense)
 
@@ -401,8 +402,8 @@ conv_window = WindowGenerator(
 # performance['Multi step dense'] = multi_step_dense.evaluate(conv_window.test, verbose=0)
 # print(val_performance)
 # print(performance)
-# {'Multi step dense': [0.006903897970914841, 0.05890052020549774]}
-# {'Multi step dense': [0.00703806895762682, 0.06022002547979355]}
+val_performance['Multi step dense'] = [0.006903897970914841, 0.05890052020549774]
+performance['Multi step dense'] = [0.00703806895762682, 0.06022002547979355]
 # conv_window.plot(multi_step_dense)
 # multi_step_dense = tf.keras.models.load_model('data/time_series/multi_step_dense')
 # print('Input shape:', wide_window.example[0].shape)
@@ -427,9 +428,9 @@ conv_window = WindowGenerator(
 # performance['Conv'] = conv_model.evaluate(conv_window.test, verbose=0)
 # print(val_performance)
 # print(performance)
-# {'Conv': [0.005989380646497011, 0.05319361388683319]}
-# {'Conv': [0.005987438373267651, 0.05417366698384285]}
-conv_model = tf.keras.models.load_model('data/time_series/conv')
+val_performance['Conv'] = [0.005989380646497011, 0.05319361388683319]
+performance['Conv'] = [0.005987438373267651, 0.05417366698384285]
+# conv_model = tf.keras.models.load_model('data/time_series/conv')
 # print("Wide window")
 # print('Input shape:', wide_window.example[0].shape)
 # print('Labels shape:', wide_window.example[1].shape)
@@ -442,8 +443,166 @@ wide_conv_window = WindowGenerator(
     shift=1,
     label_columns=['T (degC)']
 )
-print("Wide conv window")
-print('Input shape:', wide_conv_window.example[0].shape)
-print('Labels shape:', wide_conv_window.example[1].shape)
-print('Output shape:', conv_model(wide_conv_window.example[0]).shape)
-wide_conv_window.plot(conv_model)
+# print("Wide conv window")
+# print('Input shape:', wide_conv_window.example[0].shape)
+# print('Labels shape:', wide_conv_window.example[1].shape)
+# print('Output shape:', conv_model(wide_conv_window.example[0]).shape)
+# wide_conv_window.plot(conv_model)
+
+# lstm_model = tf.keras.models.Sequential([
+#     # Shape [batch, time, features] => [batch, time, lstm_units]
+#     tf.keras.layers.LSTM(32, return_sequences=True),
+#     # Shape => [batch, time, features]
+#     tf.keras.layers.Dense(units=1)
+# ])
+# history = compile_and_fit(lstm_model, wide_window, 'data/time_series/lstm')
+# val_performance['LSTM'] = lstm_model.evaluate(wide_window.val)
+# performance['LSTM'] = lstm_model.evaluate(wide_window.test, verbose=0)
+# print(val_performance['LSTM'])
+# print(performance['LSTM'])
+val_performance['LSTM'] = [0.005590430926531553, 0.05157112330198288]
+performance['LSTM'] = [0.005600317846983671, 0.052606042474508286]
+# lstm_model = tf.keras.models.load_model('data/time_series/lstm')
+
+# bilstm_model = tf.keras.models.Sequential([
+#     tf.keras.layers.Conv1D(filters=32, kernel_size=(3,), activation='relu', padding='same'),
+#     tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(units=64, return_sequences=True)),
+#     tf.keras.layers.Dense(units=1)
+# ])
+# history = compile_and_fit(bilstm_model, wide_window, 'data/time_series/test_bilstm')
+# val_performance['BiLSTM'] = bilstm_model.evaluate(wide_window.val)
+# performance['BiLSTM'] = bilstm_model.evaluate(wide_window.test, verbose=0)
+# print(val_performance['BiLSTM'])
+# print(performance['BiLSTM'])
+val_performance['BiLSTM'] = [0.0003349148319102824, 0.008535444736480713]
+performance['BiLSTM'] = [0.000345767883118242, 0.009427332319319248]
+# bilstm_model = tf.keras.models.load_model('data/time_series/bilstm')
+
+
+# x = np.arange(len(performance))
+# width = 0.3
+# metric_name = 'mean_absolute_error'
+# metric_index = bilstm_model.metrics_names.index('mean_absolute_error')
+# val_mae = [v[metric_index] for v in val_performance.values()]
+# test_mae = [v[metric_index] for v in performance.values()]
+#
+# plt.ylabel('mean_absolute_error [T (degC), normalized]')
+# plt.bar(x - 0.17, val_mae, width, label='Validation')
+# plt.bar(x + 0.17, test_mae, width, label='Test')
+# plt.xticks(ticks=x, labels=performance.keys(),
+#            rotation=45)
+# _ = plt.legend()
+# plt.show()
+
+# for name, value in performance.items():
+#   print(f'{name:12s}: {value[1]:0.4f}')
+
+
+single_step_window = WindowGenerator(
+    input_width=1, label_width=1, shift=1)
+
+wide_window = WindowGenerator(
+    input_width=24, label_width=24, shift=1)
+
+val_performance = dict()
+performance = dict()
+
+# for example_inputs, example_labels in wide_window.train.take(1):
+#   print(f'Inputs shape (batch, time, features): {example_inputs.shape}')
+#   print(f'Labels shape (batch, time, features): {example_labels.shape}')
+
+# baseline = Baseline()
+# baseline.compile(loss=tf.losses.MeanSquaredError(),
+#                  metrics=[tf.metrics.MeanAbsoluteError()])
+# val_performance['Baseline'] = baseline.evaluate(wide_window.val)
+# performance['Baseline'] = baseline.evaluate(wide_window.test, verbose=0)
+# print(val_performance)
+# print(performance)
+val_performance['Baseline'] = [0.0885537713766098, 0.15893250703811646]
+performance['Baseline'] = [0.09026195108890533, 0.16375169157981873]
+
+# dense = tf.keras.Sequential([
+#     tf.keras.layers.Dense(units=64, activation='relu'),
+#     tf.keras.layers.Dense(units=64, activation='relu'),
+#     tf.keras.layers.Dense(units=num_features)
+# ])
+# history = compile_and_fit(dense, single_step_window, 'data/time_series/mout_dense')
+# val_performance['Dense'] = dense.evaluate(single_step_window.val)
+# performance['Dense'] = dense.evaluate(single_step_window.test, verbose=0)
+# print(val_performance['Dense'])
+# print(performance['Dense'])
+val_performance['Dense'] = [0.0670291930437088, 0.12778548896312714]
+performance['Dense'] = [0.0676712915301323, 0.1289435178041458]
+
+wide_window = WindowGenerator(
+    input_width=24, label_width=24, shift=1
+)
+
+# lstm_model = tf.keras.models.Sequential([
+#     # Shape [batch, time,features] => [batch, time, lstm_units]
+#     tf.keras.layers.LSTM(32, return_sequences=True),
+#     # Shape => [batch, time, features]
+#     tf.keras.layers.Dense(units=num_features)
+# ])
+# history = compile_and_fit(lstm_model, wide_window, 'data/time_series/mout_lstm')
+# val_performance['LSTM'] = lstm_model.evaluate(wide_window.val)
+# performance['LSTM'] = lstm_model.evaluate(wide_window.test)
+# print(val_performance['LSTM'])
+# print(performance['LSTM'])
+val_performance['LSTM'] = [0.0616740919649601, 0.1203341856598854]
+performance['LSTM'] = [0.06206468120217323, 0.12214010208845139]
+
+# bilstm_model = tf.keras.models.Sequential([
+#     tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(units=64, return_sequences=True)),
+#     tf.keras.layers.Dense(units=num_features)
+# ])
+# history = compile_and_fit(bilstm_model, wide_window, 'data/time_series/mout_bilstm')
+# val_performance['BiLSTM'] = bilstm_model.evaluate(wide_window.val)
+# performance['BiLSTM'] = bilstm_model.evaluate(wide_window.test, verbose=0)
+# print(val_performance['BiLSTM'])
+# print(performance['BiLSTM'])
+val_performance['BiLSTM'] = [0.003190754447132349, 0.017605125904083252]
+performance['BiLSTM'] = [0.003205966902896762, 0.018013853579759598]
+
+
+class ResidualWrapper(tf.keras.Model):
+    def __init__(self, model):
+        super().__init__()
+        self.model = model
+
+    def call(self, inputs, *args, **kwargs):
+        delta = self.model(inputs, *args, **kwargs)
+
+        return inputs + delta
+
+
+residual_lstm = ResidualWrapper(
+    tf.keras.Sequential([
+        tf.keras.layers.LSTM(32, return_sequences=True),
+        tf.keras.layers.Dense(num_features, kernel_initializer=tf.initializers.zeros)
+    ]))
+residual_lstm.build(input_shape=(None, 24, 19))
+history = compile_and_fit(residual_lstm, wide_window)
+val_performance['Residual LSTM'] = residual_lstm.evaluate(wide_window.val)
+performance['Residual LSTM'] = residual_lstm.evaluate(wide_window.test, verbose=0)
+print(val_performance['Residual LSTM'])
+print(performance['Residual LSTM'])
+
+x = np.arange(len(performance))
+width = 0.3
+
+metric_name = 'mean_absolute_error'
+metric_index = residual_lstm.metrics_names.index('mean_absolute_error')
+val_mae = [v[metric_index] for v in val_performance.values()]
+test_mae = [v[metric_index] for v in performance.values()]
+
+plt.bar(x - 0.17, val_mae, width, label='Validation')
+plt.bar(x + 0.17, test_mae, width, label='Test')
+plt.xticks(ticks=x, labels=performance.keys(),
+           rotation=45)
+plt.ylabel('MAE (average over all outputs)')
+_ = plt.legend()
+plt.show()
+
+for name, value in performance.items():
+  print(f'{name:15s}: {value[1]:0.4f}')
